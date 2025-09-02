@@ -9,7 +9,7 @@ The backend uses Hugging Face's Inference API to generate quiz questions from st
 
 Example for Linux/macOS:
 ```bash
-export HUGGINGFACE_API_KEY=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
+export HUGGINGFACE_API_KEY=youwill_get_startwit_hf
 ```
 
 ## Error Handling
