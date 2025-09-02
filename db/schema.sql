@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS webapp_db;
+USE webapp_db;
+
+CREATE TABLE IF NOT EXISTS flashcards (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    question TEXT NOT NULL,
+    answer TEXT NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    user_id VARCHAR(64) DEFAULT NULL,
+    session_id VARCHAR(64) DEFAULT NULL
+);
